@@ -15,7 +15,7 @@ steps:
     type: build
     stage: package
     image_name: my-app-image
-    working_directory: ./
+    working_directory: mackelleh2/
     tag: v1.0.1
     dockerfile: Dockerfile
   MyUnitTests:
